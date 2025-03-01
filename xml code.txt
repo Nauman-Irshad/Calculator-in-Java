@@ -1,0 +1,414 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/bottomHALF"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+
+        android:layout_marginTop="340dp"
+        android:background="#9BB7E3" />
+    <View
+        android:id="@+id/bottomCenter"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="570dp"
+        android:background="#000000" />
+
+
+    <EditText
+        android:id="@+id/input"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="-"
+        tools:ignore="HardcodedText"
+
+        android:textSize="24sp"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="-55dp"
+        android:padding="1dp"
+        android:text="9898982"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="2000dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="-3dp"
+        android:padding="0dp"
+        android:text="6666+7777"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="2000dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="-2dp"
+        android:padding="1dp"
+        android:text="232+22*(22)/222-22*(2)+33"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="786dp"
+
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F14036"
+        tools:ignore="HardcodedText"
+        android:text="AC"
+        android:textSize="30sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="567dp"
+
+        android:layout_marginBottom="238dp"
+        android:backgroundTint="#446FC9"
+        android:text="6"
+        tools:ignore="HardcodedText"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="567dp"
+        android:layout_marginEnd="3dp"
+
+        android:layout_marginBottom="238dp"
+        android:backgroundTint="#FF9F0A"
+        tools:ignore="HardcodedText"
+        android:text="+"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="567dp"
+        tools:ignore="HardcodedText"
+
+        android:layout_marginBottom="238dp"
+        android:backgroundTint="#446FC9"
+        android:text="5"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="463dp"
+
+        android:layout_marginBottom="349dp"
+        android:backgroundTint="#446FC9"
+        tools:ignore="HardcodedText"
+        android:text="8"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="463dp"
+
+        android:layout_marginBottom="349dp"
+        android:backgroundTint="#446FC9"
+        tools:ignore="HardcodedText"
+        android:text="9"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="5dp"
+
+
+        android:layout_marginBottom="349dp"
+        android:backgroundTint="#FF9F0A"
+        android:text="*"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="463dp"
+
+        android:layout_marginBottom="349dp"
+        android:backgroundTint="#446FC9"
+        android:text="7"
+        tools:ignore="HardcodedText"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="357dp"
+
+        android:layout_marginBottom="451dp"
+        android:backgroundTint="#F14036"
+        tools:ignore="HardcodedText"
+        android:text="C"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="6dp"
+
+
+        android:layout_marginBottom="451dp"
+        android:backgroundTint="#818380"
+        android:text="/"
+        tools:ignore="HardcodedText"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="357dp"
+
+        android:layout_marginBottom="451dp"
+        android:backgroundTint="#818380"
+        android:text=")"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="357dp"
+
+        android:layout_marginBottom="451dp"
+        android:backgroundTint="#818380"
+        tools:ignore="HardcodedText"
+        android:text="("
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="567dp"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="238dp"
+        android:backgroundTint="#446FC9"
+        android:text="4"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="680dp"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="129dp"
+        android:backgroundTint="#446FC9"
+        android:text="1"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="680dp"
+
+        android:layout_marginBottom="129dp"
+        android:backgroundTint="#446FC9"
+        android:text="2"
+        tools:ignore="HardcodedText"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="680dp"
+
+        android:layout_marginBottom="129dp"
+        android:backgroundTint="#446FC9"
+        tools:ignore="HardcodedText"
+        android:text="3"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="3dp"
+
+        android:layout_marginBottom="129dp"
+        android:backgroundTint="#FF9F0A"
+        tools:ignore="HardcodedText"
+        android:text="-"
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="786dp"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#446FC9"
+        android:text="0"
+
+
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="786dp"
+        tools:ignore="HardcodedText"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#446FC9"
+        android:text="."
+        android:textSize="40sp" />
+
+    <Button
+
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/input"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="786dp"
+        android:layout_marginEnd="3dp"
+
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText"
+        android:backgroundTint="#FF9F0A"
+        android:text="="
+        android:textSize="40sp" />
+
+</RelativeLayout>
